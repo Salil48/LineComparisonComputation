@@ -6,6 +6,10 @@
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
 
+            //LineComparison.Check();
+
+            LineComparison lineComparison = new LineComparison();
+            lineComparison.Check();
         }
     }
 }
